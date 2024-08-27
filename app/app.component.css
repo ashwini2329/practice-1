@@ -1,0 +1,23 @@
+p {
+  font-family: Lato;
+}
+
+.input-error {
+  color: red;
+  font: italic;
+  font-size: 20px;
+}
+
+.submit-btn {
+  background-color: teal;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.child-components {
+  margin-top: 50px;
+}

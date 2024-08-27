@@ -1,0 +1,13 @@
+<div class="search-filter">
+  <div class="search-input">
+    <label for="search-box">Search Data :</label>
+    <input
+      type="text"
+      #searchbox
+      (keyup)="getSearchedResult(searchbox.value)"
+    />
+  </div>
+  <div class="array-data" *ngFor="let data of filteredData">
+    {{ data }}
+  </div>
+</div>
